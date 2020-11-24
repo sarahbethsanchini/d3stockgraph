@@ -1,0 +1,162 @@
+body {
+	font-family: 'Ubuntu', arial;
+    text-align: center;
+    overflow: hidden;
+}
+
+.chart-area {
+    fill: white;
+}
+
+.graph-svg-component {
+	fill: grey;
+}
+
+/* ------ Title in center ------ */
+
+.title-top1 {
+	/*text-anchor: middle;*/
+	font-size: 22px;
+	font-weight: 600
+}
+
+.title-top {
+	/*text-anchor: middle;*/
+	font-size: 22px;
+	font-weight: 600
+}
+.title-bottom {
+	/*text-anchor: middle;*/
+	font-size: 22px;
+	fill: #0d4982;
+	font-weight: 500
+}
+.Outperformance {
+	text-anchor: middle;
+	font-size: 22px;
+	fill: #2c79a1;
+	font-weight: 600
+}
+
+.textSlash {
+	font-size: 22px;
+	font-weight: 600
+}
+.Underperformance {
+	font-size: 22px;
+	text-anchor: middle;
+	fill: #d13a01;
+	font-weight: 600
+}
+.vsSentence {
+	text-anchor: middle;
+	font-size: 22px;
+	/*fill: #ababab;*/
+	font-weight: 600
+}
+/* ------ Datapoint circles ------ */
+
+.circle {
+	fill: #a2a2a2;
+	opacity: 0.6;
+}
+
+.circle-top {
+	fill: white;
+	opacity: 0.7;	
+}
+
+/* ------ Axes ------ */
+
+.average-line {
+	stroke: #b3b3b3;
+	stroke-width: 1px;
+	fill: none;
+}
+
+.axis-line {
+    fill: none;
+    stroke: #b3b3b3;
+    stroke-linecap: round;
+    stroke-dasharray: 0,5;
+    stroke-width: 1.5;
+}
+
+.axis-number {
+	text-anchor: middle;
+	font-size: 12px;
+	fill: #b5b5b5;
+}
+
+.time-axis {
+	fill: #d4d4d4;
+}
+
+.time-axis2 {
+	fill: #d4d4d4;
+}
+
+.time-axis-text {
+	fill: #989898;
+	font-size: 10px 
+}
+
+.time-axis-text2 {
+	fill: #989898;
+	font-size: 10px
+}
+
+
+/* ------ Tooltip annotation ------ */
+
+.annotation path {
+	fill: none;
+	stroke: #1d1d1d;
+	stroke-width: 1.5px;
+}
+
+.annotation text {
+	fill: #161616;
+	font-size: 14px;
+	text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+	line-height: 200%;
+}
+
+.annotation-note-bg {
+	fill: none;
+}
+
+.annotation .annotation-subject {
+	stroke-dasharray: 2,4;
+    stroke-linecap: round;
+    stroke-width: 1.5px;
+}
+
+.annotation-note-title {
+	font-weight: bold;
+}
+
+.annotation .connector-dot {
+    fill: white;
+    transform: scale(1.5);
+}
+
+.annotation.average-note .connector, .annotation.average-note .connector-dot, .annotation.average-note .note-line {
+    stroke: #ffec0c;
+}
+
+
+
+
+
+
+.annotation.real-note .connector, .annotation.real-note .connector-dot, .annotation.real-note .note-line {
+	stroke-width: 2px;
+	fill: none;
+}
+
+.annotation.real-note path {
+	fill: none;
+	stroke: #1d1d1d;
+	stroke-width: 1.5px;
+}
